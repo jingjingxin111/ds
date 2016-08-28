@@ -15,7 +15,7 @@ $(document).ready(function(){
 	 li=$(".sss a"),
 	 ded=$(".nav a");
 	 slideShow.hover(function(){
-		clearInterval(timer)		},autoPlay())
+		clearInterval(timer)		},autoPlay)
 	 nav.on("click",function(){
        var me=$(this),
 	      index=me.index();
